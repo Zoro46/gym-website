@@ -1,0 +1,93 @@
+/* CSS Reset */
+body{
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/bg.jpg);
+    font-family: 'Kaushan Script', cursive;
+   }
+.left{
+    position:absolute;
+    top: 20px;
+    left: 34px;
+    border: 2px solid rebeccapurple;
+    font-size: 18px;
+}
+.left img{
+    width: 30px;
+    filter: invert(100%);
+    padding-left: 30px;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    border: 2px solid rgb(52, 158, 117);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    font-size: 19px;
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px 18px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.right{
+    position:absolute;
+    top: 20px;
+    right: 34px;
+    display: inline-block;
+    border: 2px solid rgb(172, 60, 138);
+}
+.btn{
+    font-family: 'Kaushan Script', cursive;
+    margin: 0px 15px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(116, 141, 168);
+}
+.container{
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 60px 61px;
+    padding: 47px;
+    width: 42%;
+}
+.container h1{
+    text-align: center;   
+}
+.form-group input{
+    font-family: 'Kaushan Script', cursive;
+    display: block;
+    text-align: center;
+    width: 324px;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 3px auto;
+    font-size: 15px;
+    text-dec;
+}
+.form-group button{
+    font-family: 'Kaushan Script', cursive;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 12px auto;
+    width: 30%;
+}
